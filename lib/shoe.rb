@@ -6,11 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS.map do |b|
-      if b == brand
-      else
-        BRANDS << b
-      end
+    BRANDS << brand
     end
   end
 
