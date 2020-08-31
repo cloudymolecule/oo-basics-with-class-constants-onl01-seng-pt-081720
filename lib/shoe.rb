@@ -6,7 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS.each do |b|
+    BRANDS.map do |b|
       if b == brand
       else
         BRANDS << b
