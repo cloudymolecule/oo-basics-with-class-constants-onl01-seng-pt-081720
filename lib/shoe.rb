@@ -10,6 +10,7 @@ class Shoe
       if b == brand
       else
         BRANDS << b
+      end
     end
   end
 
