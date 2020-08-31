@@ -6,8 +6,19 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS << brand
-    
+    i = BRANDS.length
+    until i == 0
+      if brand == brands[i]
+        if i == 0
+        else
+          i -= 1
+        end
+      else
+        BRAND << brand
+        i -= 1
+      end
+    end
+
   end
 
   def cobble
